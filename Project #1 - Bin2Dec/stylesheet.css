@@ -1,0 +1,13 @@
+/* New font */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+.navbar-brand {
+
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.labelConvert {
+
+    font-size: 0.6em;   
+}
