@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+body {
+
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+
+h1 {
+
+    padding: 2%;
+}
+
+#temporizador {
+
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#tempo_restante {
+
+    padding: 10%;
+    font-size: 7em;
+}
+
+#botoes {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#start, #restart {
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: transparent;
+}
+
+.botao {
+
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+footer {
+
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+#social {
+
+    padding: 1%;
+
+}

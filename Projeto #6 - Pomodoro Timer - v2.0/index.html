@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+		
+		<title>Pomodoro Timer</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="tomates.png" type="image/x-icon">
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/51abcfa0fd.js" crossorigin="anonymous"></script>
+
+	</head>
+
+	<body>
+
+		<h1>Pomodoro Timer</h1>
+
+		<main>
+
+			<div id="temporizador"><!-- Temporizador -->
+
+				<div id="botoes">
+
+					<button class="botao" id="pomodoro" onclick="pomodoro()">Pomodoro</button>
+					<button class="botao" id="short" onclick="short()">Short Break</button>
+					<button class="botao" id="long" onclick="long()">Long Break</button>
+
+				</div>
+
+				<p id="tempo_restante">--:--</p>
+
+				<button id="start" onclick="start()"><i class="fas fa-play"></i></button>
+				<button id="restart" onclick="restart()"><i class="fas fa-redo-alt"></i></button>
+
+			</div>
+
+		</main>
+
+		<footer>
+
+			<p>Developed by Antero Júnior</p>
+
+			<div id="social">
+
+				<a href="https://github.com/AnteroJunior/" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+
+				<a href="https://br.linkedin.com/in/antero-arcanjo" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+
+			</div>
+
+		</footer>
+
+		<!-- Script -->
+		<script src="script.js"></script>
+
+	</body>
+
+</html>
