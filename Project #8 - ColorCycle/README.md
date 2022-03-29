@@ -13,4 +13,4 @@
 - [x] HTML5, CSS3
 
 ## Informations
-* The project is base on [Florin Pop Ideas](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Color-Cycle-App.md)
+* The project is based on [Florin Pop Ideas](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Color-Cycle-App.md)
