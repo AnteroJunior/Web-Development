@@ -36,6 +36,24 @@ main {
     gap: 10px;
 }
 
-#joke {
+#joke, footer p {
     font-family: 'Nunito', sans-serif;
+}
+
+footer {
+
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+#social {
+
+    padding: 1%;
+    color: black;
+
+}
+
+#social i {
+    color: black;
 }
