@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>ColorCycle</title>
+
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/9f9509dbc7.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <div id="controls">
+
+            <label>Base color:</label>
+            <input type="text" placeholder="ex: FFFFFF" id="cor" required><br>
+
+            <label>Increment:</label>
+            <input type="number" placeholder="RED" id="incremento-red" required>
+            <input type="number" placeholder="GREEN" id="incremento-green" required>
+            <input type="number" placeholder="BLUE" id="incremento-blue" required>
+
+            <input type="submit" value="Start" id="botao" onclick="geraCores()">
+
+            <h3 id="valorAtual" onclick="copy()"></h3>
+
+        </div>
+
+        <footer>
+
+            <p>Developed by Antero Júnior</p>
+
+            <div id="social">
+
+                <a href="https://github.com/AnteroJunior/" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+
+                <a href="https://br.linkedin.com/in/antero-arcanjo" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+
+            </div>
+
+        </footer>
+
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>

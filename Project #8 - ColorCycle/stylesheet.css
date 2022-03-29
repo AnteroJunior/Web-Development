@@ -1,0 +1,43 @@
+#incremento-blue,
+#incremento-red,
+#incremento-green {
+    width: 50px;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cor {
+    margin-bottom: 10px;
+}
+
+#controls {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+
+footer {
+
+    text-align: center;
+
+}
+
+#social {
+
+    padding: 1%;
+    color: black;
+
+}
+
+#social i {
+    color: black;
+}
