@@ -11,7 +11,7 @@ I used the Fetch API to [Chuck Norris API](https://api.chucknorris.io/) and I st
 JavaScript.
 
 ## Technologies 
-[x] HTML5, CSS3 <br>
-[x] JavaScript (DOM API, Fetch API)<br>
-[x] Font Awesome<br>
-[x] Google Fonts
+- [x] HTML5, CSS3 <br>
+- [x] JavaScript (DOM API, Fetch API)<br>
+- [x] Font Awesome<br>
+- [x] Google Fonts
