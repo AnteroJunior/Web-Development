@@ -1,0 +1,99 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
+@import "task";
+
+// Variables
+@mixin coloracao-principal ($background: rgb(203, 30, 30), $font-color: #FFF) {
+    background-color: $background;
+    color: $font-color;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    @include coloracao-principal;
+    font-family: 'Fredoka One', cursive;
+    padding: 2%;
+
+    .fontawesome {
+        color: #00FF00;
+    }
+
+    h1 {
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+}
+
+main {
+    
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+
+    #insert-task {
+
+        text-align: center;
+        padding-top: 3%;
+        
+        input[type=text] {
+
+            line-height: 2.5em;
+            width: 20%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        input[type=button] {
+
+            background-color: rgb(203, 30, 30);
+            color: #FFFF;
+            padding: .5%;
+            border-radius: 10px;
+        }
+
+        input[type=button]:hover {
+            background-color: #00FF00;
+            transition-duration: .5s;
+        }
+
+    }
+
+    #tasks {
+        padding-top: 2%;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #todo {
+        width: 600px;
+    }
+
+    #done {
+        width: 600px;
+    }
+}
+
+footer {
+
+    @include coloracao-principal;
+
+    font-family: 'Fredoka One', cursive;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+    padding: 10px;
+
+    #socialMedias {
+        padding: 10px;        
+    }
+
+}

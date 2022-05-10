@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>My ToDo List</title>
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/index.css">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/46fc4189d1.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+
+        <header>
+
+            <!-- Somente uma barra com o nome do applicativo -->
+
+            <h1>My ToDo List <i class="fa-solid fa-circle-check fontawesome"></i></h1>
+            
+        </header>
+
+        <main>
+
+            <!-- Input: nome da tarefa e botão de incluir -->
+            <div id="insert-task">
+
+                <input type="text" placeholder="Insira o nome da tarefa" id="tarefa" name="tarefa" required>
+                <input type="button" value="Add" onclick="createTask(tarefa.value);">
+            
+            </div>
+
+            <!-- Left: Cada tarefa será uma div com o nome, caixa de seleção, opção de excluir e editar -->
+            <!-- Right: Tarefas concluidas -->
+            <div id="tasks">
+
+                <div id="todo">
+
+                    <h2 style="text-align: center;">To Do</h2>
+
+                </div>
+
+                <div id="done">
+
+                    <h2 style="text-align: center;">Done</h2>
+
+                </div>
+
+            </div>
+
+
+        </main>
+
+        <footer>
+
+            <!-- Name and social network (LinkedIn, GitHub) -->
+            <p>Developed by Antero Júnior</p>
+
+            <div id="socialMedias">
+
+                <a href="https://github.com/AnteroJunior/" target="_blank" style="color: white;"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="https://br.linkedin.com/in/antero-arcanjo" style="color: white;" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+
+            </div>
+
+        </footer>
+
+        <script src="./js/index.js"></script>
+        
+    </body>
+
+</html>

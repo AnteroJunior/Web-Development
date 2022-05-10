@@ -1,0 +1,25 @@
+.task {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    .remove-button {
+        width: 5%;
+        color: red;
+    }
+
+}
+
+#todo, #done {
+    border: 1px solid rgb(195, 194, 194);
+}
+
+.task:hover {
+    background-color: gray;
+}
+
+#done .task p {
+    text-decoration: line-through;
+}
